@@ -1,5 +1,6 @@
 package test;
 
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import static test.TestData.*;
@@ -10,6 +11,7 @@ public class RegistrationWithFakerTest extends TestBase{
     @Tag("qa")
     @Test
     void fillFormTest() {
+        Selenide.open("/");
         registrationPage.openPage()
                 .setFirstName(userName)
                 .setLastName(userLastName)
