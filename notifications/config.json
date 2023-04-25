@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "pictures/21.jpg",
+    "logo": "21.jpg",
     "project": "project",
     "environment": "qa.guru",
     "comment": "first comment",
