@@ -11,7 +11,6 @@ public class RegistrationWithFakerTest extends TestBase{
     @Tag("qa")
     @Test
     void fillFormTest() {
-        Selenide.open("/");
         registrationPage.openPage()
                 .setFirstName(userName)
                 .setLastName(userLastName)
